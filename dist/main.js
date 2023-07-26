@@ -8,6 +8,6 @@ window.onload=function(){
 
     const img = document.createElement("img");
     img.src = "./oysters.jpg";
-    const src = document.getElementById("header");
+    const src = document.getElementById("image");
     src.appendChild(img);
 }
