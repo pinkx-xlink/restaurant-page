@@ -6,5 +6,8 @@ window.onload=function(){
     h1.innerText = "Dreamy Oyster Bar";
     headline.appendChild(h1);
 
-
+    const img = document.createElement("img");
+    img.src = "./oysters.jpg";
+    const src = document.getElementById("header");
+    src.appendChild(img);
 }
