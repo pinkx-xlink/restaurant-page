@@ -1,0 +1,13 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "This is my Restaurant Page Project for the Odin Project: JavaScript course.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "acorn": "^8.10.0",
+    "acorn-import-assertions": "^1.9.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "browserslist": "^4.21.9",
+    "buffer-from": "^1.1.2",
+ 
