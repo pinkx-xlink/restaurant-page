@@ -29,3 +29,7 @@ img {
     grid-auto-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+.tabs:hover {
+    background-color: blue;
+}

@@ -17,7 +17,7 @@ window.onload=function loadPage() {
 function selectTab(tabIndex) {
     //hide tabs
     const tab1 = document.createElement(div);
-    document.getElementById("content").style.display = "none";
+    document.getElementById("tab1").style.display = "none";
     tab1.appendChild(div); 
 
     const tab2 = document.createElement(div);
