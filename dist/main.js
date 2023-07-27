@@ -12,8 +12,11 @@ window.onload=function loadPage() {
     const src = document.getElementById("content");
     src.appendChild(img);
 
-    
-}
+     const info = document.getElementById("text");
+     const text = document.createElement("div");
+     info.innerText = "So, here's some words...";
+     content.appendChild("div");
+ }
 
 
 function selectTab(tabIndex) {
