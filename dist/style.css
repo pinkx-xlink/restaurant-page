@@ -12,10 +12,14 @@ img {
 #tab2,
 #tab3 {
     text-align: center;
-    float: right;
+    
     padding: 10px 20px 10px 20px;
     background-color: red;
     height:100px;
     width:200px;
     cursor:pointer;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items:end;
 }
