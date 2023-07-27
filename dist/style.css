@@ -8,9 +8,9 @@ img {
     align-items: flex-start;
 }
 
-tab1,
-tab2,
-tab3 {
+#tab1,
+#tab2,
+#tab3 {
     color: red;
     height:100px;
     width:200px;
