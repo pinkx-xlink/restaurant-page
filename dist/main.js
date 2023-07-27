@@ -21,11 +21,13 @@ function selectTab(tabIndex) {
     tab1.appendChild(div); 
 
     const tab2 = document.createElement(div);
-    document.getElementById("tab2Content").style.display = "none";
+    document.getElementById("content").style.display = "none";
     tab2.appendChild(div);
 
-    document.getElementById("tab3Content").style.display = "none";
-   
+    const tab3 = document.createElement(div);
+    document.getElementById("content").style.display = "none";
+    tab3.appendChild(div);
+
     //show tab when selected
     document.getElementById("tab" + tabIndex).style.display = 
     "block";
