@@ -12,10 +12,10 @@ window.onload=function loadPage() {
     const src = document.getElementById("content");
     src.appendChild(img);
 
-     const info = document.getElementById("text");
-     const text = document.createElement("div");
+     const info = document.getElementById("div");
+     const paragraph = document.createElement("info");
      info.innerText = "So, here's some words...";
-     content.appendChild("div");
+     paragraph.appendChild(info);
  }
 
 
