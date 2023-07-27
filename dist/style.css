@@ -15,7 +15,7 @@ img {
     text-align: center;
     font-weight:600px;
     padding: 10px 20px 10px 20px;
-    background-color: red;
+    background-color: rgb(155, 83, 83);
     height:80px;
     width:100px;
     cursor:pointer;
@@ -34,5 +34,5 @@ img {
 #tab1:hover,
 #tab2:hover,
 #tab3:hover {
-    background-color: blue;
+    background-color: rgb(187, 187, 209);
 }
