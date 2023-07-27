@@ -20,7 +20,10 @@ function selectTab(tabIndex) {
     document.getElementById("content").style.display = "none";
     tab1.appendChild(div); 
 
+    const tab2 = document.createElement(div);
     document.getElementById("tab2Content").style.display = "none";
+    tab2.appendChild(div);
+
     document.getElementById("tab3Content").style.display = "none";
    
     //show tab when selected
