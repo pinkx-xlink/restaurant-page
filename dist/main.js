@@ -29,8 +29,8 @@ function selectTab(tabIndex) {
     tab3.appendChild(div);
 
     //show tab when selected
-    document.getElementById("tab" + tabIndex).style.display = 
-    "block";
+    // document.getElementById("tabs" + tabIndex).style.display = 
+    // "block";
 
 }
 
