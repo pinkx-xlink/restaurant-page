@@ -11,6 +11,8 @@ window.onload=function loadPage() {
     img.src = "./oysters.jpg";
     const src = document.getElementById("content");
     src.appendChild(img);
+
+    
 }
 
 
