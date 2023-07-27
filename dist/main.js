@@ -16,13 +16,15 @@ window.onload=function loadPage() {
 
 function selectTab(tabIndex) {
     //hide tabs
-    const tab1 = document.createElement('content');
-    document.getElementById("tab1").style.display = "none";
+    const tab1 = document.createElement(div);
+    document.getElementById("content").style.display = "none";
+    tab1.appendChild(div); 
 
     document.getElementById("tab2Content").style.display = "none";
     document.getElementById("tab3Content").style.display = "none";
+   
     //show tab when selected
-    document.getElementById("tab" + tabIndex + "Content").style.display = 
+    document.getElementById("tab" + tabIndex).style.display = 
     "block";
 
 }
