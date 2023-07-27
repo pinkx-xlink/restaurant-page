@@ -1,5 +1,5 @@
 
-export function loadPage(){
+function loadPage() {
     const headline = document.getElementById('h1');
     const h1 = document.createElement('content');
     h1.innerText = "Dreamy Oyster Bar";
@@ -10,3 +10,5 @@ export function loadPage(){
     const src = document.getElementById("content");
     src.appendChild(img);
 }
+
+// export default function loadPage();
