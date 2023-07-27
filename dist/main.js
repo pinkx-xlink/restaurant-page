@@ -3,7 +3,7 @@ alert("oh hell /:");
 
 window.onload=function loadPage() {
     const headline = document.getElementById('h1');
-    const h1 = document.createElement('content');
+    const h1 = document.createElement('h1');
     h1.innerText = "Dreamy Oyster Bar";
     content.appendChild(h1);
 
@@ -16,12 +16,15 @@ window.onload=function loadPage() {
 
 function selectTab(tabIndex) {
     //hide tabs
-    document.getElementById("tab1Content").style.display = "none";
+    const tab1 = document.createElement('content');
+    document.getElementById("tab1").style.display = "none";
+
     document.getElementById("tab2Content").style.display = "none";
     document.getElementById("tab3Content").style.display = "none";
     //show tab when selected
     document.getElementById("tab" + tabIndex + "Content").style.display = 
     "block";
+
 }
 
 
